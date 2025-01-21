@@ -7,7 +7,7 @@ const userschema=mongo.Schema({
     email:String,
     age:Number,
     posts:[{
-        type:mongo.Schema.Types.ObjectId,
+        type:mongo.Schema.Types.ObjectId,//this used for storing the reference of different mongodb document
         ref:'post'
     }]
 })
