@@ -1,0 +1,1 @@
+this project conatin usermodel schema used for create new users and store post id ,and  there another file for creating posts and it contains userdata which show which user created this
